@@ -7,7 +7,6 @@ specifiers:
   '@astrojs/tailwind': ^0.2.1
   '@astrojs/vue': ^0.1.5
   astro: ^1.0.0-beta.41
-  eta: ^1.12.3
   vue: ^3.2.37
 
 dependencies:
@@ -20,7 +19,6 @@ devDependencies:
   '@astrojs/tailwind': 0.2.1
   '@astrojs/vue': 0.1.5_vue@3.2.37
   astro: 1.0.0-beta.41
-  eta: 1.12.3
 
 packages:
 
@@ -1473,11 +1471,6 @@ packages:
 
   /estree-walker/3.0.1:
     resolution: {integrity: sha512-woY0RUD87WzMBUiZLx8NsYr23N5BKsOMZHhu2hoNRVh6NXGfoiT1KOL8G3UHlJAnEDGmfa5ubNA/AacfG+Kb0g==}
-    dev: true
-
-  /eta/1.12.3:
-    resolution: {integrity: sha512-qHixwbDLtekO/d51Yr4glcaUJCIjGVJyTzuqV4GPlgZo1YpgOKG+avQynErZIYrfM6JIJdtiG2Kox8tbb+DoGg==}
-    engines: {node: '>=6.0.0'}
     dev: true
 
   /execa/6.1.0:
