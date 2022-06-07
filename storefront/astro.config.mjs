@@ -1,12 +1,13 @@
 import { defineConfig } from 'astro/config';
 
+import node from '@astrojs/node';
 import vue from "@astrojs/vue";
 import tailwind from "@astrojs/tailwind";
-import turbolinks from "@astrojs/turbolinks";
 import partytown from "@astrojs/partytown";
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [vue(), tailwind(), turbolinks(), partytown(), sitemap()]
+  adapter: node(),
+  integrations: [vue(), tailwind(), partytown(), sitemap()],
 });
